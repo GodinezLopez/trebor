@@ -87,6 +87,7 @@ img,video{
 }
 
 .textitogoodxd{
+    text-align: center;
     text-shadow:0 0 8px rgba(255,255,255,0.5),0 0 16px rgba(255,255,255,0.5),0 0 30px rgba(255,255,255,0.5);
 }
 
@@ -107,6 +108,7 @@ img,video{
     max-width:1300px;
     margin:0 auto;
     width:100%;
+    margin: 60px 0;
 }
 
 .container.reverse{
@@ -114,7 +116,7 @@ img,video{
 }
 
 .image{
-    flex:1;
+    flex:0.4;
     min-width:0;
     opacity:0;
     transform:translateX(-80px);
@@ -127,16 +129,18 @@ img,video{
 
 .image img{
     width:100%;
+    height: auto;
     border-radius:20px;
     box-shadow:0 20px 60px rgba(0,0,0,0.6);
 }
 
 .text{
-    flex:1;
+    flex:0.5;
     min-width:0;
     opacity:0;
     transform:translateX(80px);
     transition:all 0.8s ease;
+    text-align: center;
 }
 
 .container.reverse .text{
@@ -231,7 +235,7 @@ img,video{
 }
 
 .social-group h3{
-    font-size:clamp(1.2rem,2vw,1.5rem);
+    font-size:clamp(1.8rem,2vw,1.5rem);
 }
 
 .icons{
@@ -243,7 +247,7 @@ img,video{
 }
 
 .icon{
-    font-size:clamp(22px,3vw,28px);
+    font-size:clamp(32px,3vw,28px);
     transition:transform 0.3s ease,filter 0.3s ease;
     display:inline-flex;
     align-items:center;
